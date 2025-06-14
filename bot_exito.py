@@ -55,7 +55,7 @@ time.sleep(5)
 print("\naplica filtro y cargan los prod")
 
 # archivo CSV
-ruta_csv = r"C:\Users\TOSHIBA\Documents\U\2025-1\todo los de construcion de software\BOT-prueba\productos_exito.csv"
+ruta_csv = r"C:\Users\TOSHIBA\Documents\U\2025-1\todo los de construcion de software\BOT-Exito\productos_exito.csv"
 with open(ruta_csv, mode="w", newline="", encoding="utf-8") as file:
     writer = csv.writer(file)
     writer.writerow(["Nombre del Producto", "Precio"])
